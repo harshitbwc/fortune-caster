@@ -15,14 +15,14 @@ export async function POST(req: NextRequest) {
       <html>
         <head>
           <meta property="fc:frame" content="vNext" />
-          <meta property="fc:frame:image" content="${appUrl}/og-image.png" />
+          <meta property="fc:frame:image" content="${appUrl}/home.png" />
           <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
           <meta property="fc:frame:button:1" content="🥠 Open Fortune Caster" />
           <meta property="fc:frame:button:1:action" content="link" />
           <meta property="fc:frame:button:1:target" content="${appUrl}" />
           <meta property="og:title" content="Fortune Caster - Cosmic Fortune Cookies" />
           <meta property="og:description" content="Discover your cosmic destiny with interactive fortune cookies!" />
-          <meta property="og:image" content="${appUrl}/og-image.png" />
+          <meta property="og:image" content="${appUrl}/home.png" />
         </head>
         <body>
           <h1>Fortune Caster</h1>
@@ -50,7 +50,7 @@ export async function GET() {
     <html>
       <head>
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="${appUrl}/og-image.png" />
+        <meta property="fc:frame:image" content="${appUrl}/home.png" />
         <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
         <meta property="fc:frame:button:1" content="🥠 Get Your Fortune" />
         <meta property="fc:frame:button:1:action" content="link" />
@@ -58,7 +58,7 @@ export async function GET() {
         <meta property="fc:frame:post_url" content="${appUrl}/api/frame" />
         <meta property="og:title" content="Fortune Caster - Cosmic Fortune Cookies" />
         <meta property="og:description" content="Discover your cosmic destiny with interactive fortune cookies!" />
-        <meta property="og:image" content="${appUrl}/og-image.png" />
+        <meta property="og:image" content="${appUrl}/home.png" />
       </head>
       <body>
         <h1>Fortune Caster</h1>

@@ -164,7 +164,7 @@ export default function FortuneCookieCSS({ onShare }: FortuneCookieCSSProps) {
                 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleScreenshotShare}
-                className="group relative flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-2xl font-semibold shadow-xl border border-purple-400/30 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center"
+                className="group relative flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-2xl font-semibold shadow-xl border border-purple-400/30 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center"
               >
                 {/* Farcaster-style icon */}
                 <Share2 size={18} className="sm:w-5 sm:h-5" />

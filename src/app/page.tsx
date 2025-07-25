@@ -1,10 +1,25 @@
 'use client';
 
+import { useEffect } from 'react';
+import { sdk } from '@farcaster/miniapp-sdk';
 import FortuneCookieCSS from '@/components/FortuneCookieCSS';
 import ParticleBackground from '@/components/ParticleBackground';
 import { shareToFarcaster } from '@/utils/farcaster';
 
 export default function Home() {
+  useEffect(() => {
+    // Initialize Farcaster SDK when component mounts
+    const initializeFarcaster = async () => {
+      try {
+        await sdk.actions.ready();
+      } catch (error) {
+        console.error('Failed to initialize Farcaster SDK:', error);
+      }
+    };
+
+    initializeFarcaster();
+  }, []);
+
   const handleShare = (fortune: string) => {
     shareToFarcaster(fortune);
   };

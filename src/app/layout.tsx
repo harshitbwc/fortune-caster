@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Fortune Caster",
     images: [
       {
-        url: "/og-image.png",
+        url: "/home.png",
         width: 1200,
         height: 630,
         alt: "Fortune Caster - Cosmic Fortune Cookies",
@@ -48,13 +48,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fortune Caster - Cosmic Fortune Cookies",
     description: "Discover your cosmic destiny with interactive 3D fortune cookies in space!",
-    images: ["/og-image.png"],
+    images: ["https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg"],
     creator: "@fortunecaster",
   },
   // Farcaster Frame metadata
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "/og-image.png",
+    "fc:frame:image": "/home.png",
     "fc:frame:image:aspect_ratio": "1.91:1",
     "fc:frame:button:1": "🥠 Get Your Fortune",
     "fc:frame:button:1:action": "link",
@@ -105,7 +105,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#00ffff" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Fortune Caster" />
+        <meta name="apple-mobile-web-app-title" content="Fortune Cookie Caster" />
         <meta name="mobile-web-app-capable" content="yes" />
         
         {/* Farcaster Frame Meta Tags */}
@@ -116,6 +116,15 @@ export default function RootLayout({
         <meta property="fc:frame:button:1:action" content="link" />
         <meta property="fc:frame:button:1:target" content="/" />
         <meta property="fc:frame:post_url" content="/api/frame" />
+        
+        {/* Farcaster Mini App Meta Tags */}
+        <meta property="of:version" content="vNext" />
+        <meta property="of:accepts:farcaster" content="vNext" />
+        <meta property="of:image" content="/home.png" />
+        <meta property="og:image" content="/cookie-open.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Fortune Caster - Cosmic Fortune Cookies" />
         
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://warpcast.com" />
