@@ -142,7 +142,20 @@ export default function RootLayout({
               }
             }
           }' />
-          <meta name="fc:frame" content={content as string} />
+          <meta name="fc:frame" content='{
+            "version": "1",
+            "imageUrl": "https://fortune-caster.vercel.app/home.png",
+            "button": {
+              "title": "Break Fortune Cookie",
+              "action": {
+                "type": "launch_miniapp",
+                "name": "FortuneCookieCaster",
+                "url": "https://fortune-caster.vercel.app",
+                "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+                "splashBackgroundColor": "#77d8ffff"
+              }
+            }
+          }' />
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="icon" href="/icon.svg" type="image/svg+xml" />
           <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
