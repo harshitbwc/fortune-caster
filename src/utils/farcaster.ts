@@ -1,5 +1,7 @@
 export const shareToFarcaster = (message: string) => {
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || window.location.origin;
+  let appUrl = process.env.NEXT_PUBLIC_APP_URL || window.location.origin;
+  // remove http or https from appUrl
+  appUrl = appUrl.replace(/^https?:\/\//, '');
   const text = encodeURIComponent(`🥠 "${message}"\n\n✨ Discover your cosmic destiny at Fortune Caster!\n${appUrl}`);
   const url = `https://warpcast.com/~/compose?text=${text}`;
   
@@ -10,7 +12,9 @@ export const shareToFarcaster = (message: string) => {
 
 export const generateCastIntent = (fortune: string): string => {
   const baseUrl = 'https://warpcast.com/~/compose';
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || window.location.origin;
+  let appUrl = process.env.NEXT_PUBLIC_APP_URL || window.location.origin;
+  // remove http or https from appUrl
+  appUrl = appUrl.replace(/^https?:\/\//, '');
   const text = `🥠 "${fortune}"\n\n✨ Discover your cosmic destiny at Fortune Caster!\n${appUrl}`;
   return `${baseUrl}?text=${encodeURIComponent(text)}`;
 };
