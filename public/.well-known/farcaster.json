@@ -4,42 +4,34 @@
     "payload": "eyJkb21haW4iOiJmb3J0dW5lLWNhc3Rlci52ZXJjZWwuYXBwIn0",
     "signature": "bPvH9IbUdHQ7n4VSYn4CmSv7DFbjFPDATt4jiBVBRRo0OaXNt0pMusDj4zZmYcMg2dGvSrTn55xIRi1x7UVUnBs="
   },
-  "miniApp": {
-    "version": "1",
+  "frame": {
     "name": "FortuneCookieCaster",
-    "description": "Discover your cosmic destiny with interactive fortune cookies! Break open beautiful 3D fortune cookies to reveal mystical messages and share them with your Farcaster community.",
-    "homeUrl": "https://fortune-caster.vercel.app",
+    "version": "1",
     "iconUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
-    "imageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+    "homeUrl": "https://fortune-caster.vercel.app",
+    "imageUrl": "https://fortune-caster.vercel.app/cookie-open.png",
+    "buttonTitle": "Break Fortune Cookie",
     "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
     "splashBackgroundColor": "#f5f0ec",
-    "buttonTitle": "Break Fortune Cookie",
-    "categories": [
-      "entertainment",
-      "social"
+    "webhookUrl": "https://fortune-caster.vercel.app/api/webhook",
+    "subtitle": "Break open fortune cookies to reveal your destiny",
+    "description": "Discover your cosmic destiny with interactive fortune cookies! Break open beautiful 3D fortune cookies to reveal mystical messages and share them with your Farcaster community.",
+    "primaryCategory": "entertainment",
+    "screenshotUrls": [
+      "https://fortune-caster.vercel.app/home.png"
     ],
+    "heroImageUrl": "https://fortune-caster.vercel.app/home.png",
     "tags": [
       "fortune",
       "cookie",
+      "future",
       "destiny",
-      "mystical",
-      "share",
-      "fun"
+      "mystical"
     ],
-    "screenshots": [
-      {
-        "url": "https://fortune-caster.vercel.app/home.png",
-        "alt": "Fortune Caster main interface with floating fortune cookie"
-      },
-      {
-        "url": "https://fortune-caster.vercel.app/cookie-open.png",
-        "alt": "Opened fortune cookie revealing mystical message"
-      }
-    ],
-    "heroImageUrl": "https://fortune-caster.vercel.app/home.png",
-    "tagline": "Break open fortune cookies to reveal your destiny",
-    "ogTitle": "Fortune Cookie Caster - Discover Your Destiny",
-    "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with your Farcaster community.",
-    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg"
+    "tagline": "Fortune cookies for destiny",
+    "ogTitle": "Fortune Cookie Caster",
+    "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster",
+    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+    "castShareUrl": "https://warpcast.com/~/compose?text=I%20just%20broke%20open%20a%20fortune%20cookie%20and%20it%20said:%7Bfortune%7D\""
   }
 }
