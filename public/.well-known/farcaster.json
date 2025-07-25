@@ -26,8 +26,7 @@
     "tagline": "Fortune cookies for destiny",
     "ogTitle": "Fortune Cookie Caster",
     "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster",
-    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
-    "castShareUrl": "https://warpcast.com/~/compose?text=I%20just%20broke%20open%20a%20fortune%20cookie%20and%20it%20said:%7Bfortune%7D\\\""
+    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg"
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjE2MDkyLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MDQ3RjhCRjdBRjZBZDM3MTFhZTc2RTRiNzIwMjM1OWYzNTcwOTc1OCJ9",

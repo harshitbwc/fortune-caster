@@ -112,7 +112,7 @@ export default function RootLayout({
                 "name": "FortuneCookieCaster",
                 "url": "https://fortune-caster.vercel.app",
                 "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
-                "splashBackgroundColor": "#65d3ffff"
+                "splashBackgroundColor": "#77d8ffff"
               }
             }
           }
