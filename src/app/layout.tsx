@@ -90,6 +90,33 @@ export const metadata: Metadata = {
   },
 };
 
+/**"name": "FortuneCookieCaster",
+    "version": "1",
+    "iconUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+    "homeUrl": "https://fortune-caster.vercel.app",
+    "imageUrl": "https://fortune-caster.vercel.app/cookie-open.png",
+    "buttonTitle": "Break Fortune Cookie",
+    "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+    "splashBackgroundColor": "#f5f0ec",
+    "webhookUrl": "https://fortune-caster.vercel.app/api/webhook",
+    "subtitle": "Fortune Cookie Caster",
+    "description": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster.",
+    "primaryCategory": "entertainment",
+    "screenshotUrls": [
+      "https://fortune-caster.vercel.app/home.png"
+    ],
+    "heroImageUrl": "https://fortune-caster.vercel.app/home.png",
+    "tags": [
+      "fortune",
+      "cookie",
+      "future",
+      "destiny",
+      "mystical"
+    ],
+    "tagline": "Fortune cookies for destiny",
+    "ogTitle": "Fortune Cookie Caster",
+    "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster",
+    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg", */
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -98,6 +125,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <head>
+          <meta name="fc:miniapp" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
+          <meta name="fc:frame" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
+        </head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
