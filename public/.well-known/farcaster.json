@@ -1,5 +1,5 @@
 {
-  "miniApp": {
+  "miniapp": {
     "name": "FortuneCookieCaster",
     "version": "1",
     "iconUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
