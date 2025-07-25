@@ -35,6 +35,11 @@
         "url": "https://fortune-caster.vercel.app/cookie-open.png",
         "alt": "Opened fortune cookie revealing mystical message"
       }
-    ]
+    ],
+    "heroImageUrl": "https://fortune-caster.vercel.app/home.png",
+    "tagline": "Break open fortune cookies to reveal your destiny",
+    "ogTitle": "Fortune Cookie Caster - Discover Your Destiny",
+    "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with your Farcaster community.",
+    "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg"
   }
 }
