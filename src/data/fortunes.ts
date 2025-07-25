@@ -1,0 +1,22 @@
+export const fortunes = [
+  "The best time to plant a tree was 20 years ago. The second best time is now.",
+  "Your future is created by what you do today, not tomorrow.",
+  "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+  "The only way to do great work is to love what you do.",
+  "Innovation distinguishes between a leader and a follower.",
+  "Life is what happens to you while you're busy making other plans.",
+  "The future belongs to those who believe in the beauty of their dreams.",
+  "It is during our darkest moments that we must focus to see the light.",
+  "The way to get started is to quit talking and begin doing.",
+  "Don't let yesterday take up too much of today.",
+  "You learn more from failure than from success.",
+  "If you are working on something exciting that you really care about, you don't have to be pushed.",
+  "Experience is the teacher of all things.",
+  "The only impossible journey is the one you never begin.",
+  "In the middle of difficulty lies opportunity.",
+  "Success is walking from failure to failure with no loss of enthusiasm.",
+  "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+  "Your limitation—it's only your imagination.",
+  "Great things never come from comfort zones.",
+  "Dream it. Wish it. Do it."
+];

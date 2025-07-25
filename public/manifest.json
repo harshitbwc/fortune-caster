@@ -1,0 +1,71 @@
+{
+  "name": "Fortune Caster",
+  "short_name": "Fortune Caster",
+  "description": "Discover your cosmic destiny with interactive 3D fortune cookies in space! Click, break, and share your fortune on Farcaster.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1b4b",
+  "theme_color": "#00ffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["entertainment", "games", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Fortune Caster main screen"
+    },
+    {
+      "src": "/cookie-open.png", 
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Fortune Caster mobile view"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Get Fortune",
+      "short_name": "Fortune",
+      "description": "Get your cosmic fortune instantly",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
