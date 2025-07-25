@@ -125,10 +125,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <head>
-          <meta name="fc:miniapp" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
-          <meta name="fc:frame" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
-        </head>
+        <meta name="fc:miniapp" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
+        <meta name="fc:frame" content='{"version":"1","imageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","button":{"title":"Break Fortune Cookie","action":{"type":"launch_miniapp","name":"FortuneCookieCaster","url":"https://fortune-caster.vercel.app","splashImageUrl":"https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg","splashBackgroundColor":"#65d3ffff"}}}' />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -138,7 +136,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="Fortune Cookie Caster" />
         <meta name="mobile-web-app-capable" content="yes" />
-        
+
         {/* Farcaster Frame Meta Tags */}
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="/og-image.png" />
@@ -147,7 +145,7 @@ export default function RootLayout({
         <meta property="fc:frame:button:1:action" content="link" />
         <meta property="fc:frame:button:1:target" content="/" />
         <meta property="fc:frame:post_url" content="/api/frame" />
-        
+
         {/* Farcaster Mini App Meta Tags */}
         <meta property="of:version" content="vNext" />
         <meta property="of:accepts:farcaster" content="vNext" />
@@ -156,7 +154,7 @@ export default function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Fortune Caster - Cosmic Fortune Cookies" />
-        
+
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://warpcast.com" />
         <link rel="dns-prefetch" href="https://warpcast.com" />
