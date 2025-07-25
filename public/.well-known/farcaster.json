@@ -1,9 +1,4 @@
 {
-  "accountAssociation": {
-    "header": "eyJmaWQiOjE2MDkyLCJ0eXBlIjoiYXV0aCIsImtleSI6IjB4NzUwZWI4Q0NGMzgxQWQ5M2IyMjg5OWJFYjQ4NDRiMkRlZGNFMDEzQiJ9",
-    "payload": "eyJkb21haW4iOiJmb3J0dW5lLWNhc3Rlci52ZXJjZWwuYXBwIn0",
-    "signature": "bPvH9IbUdHQ7n4VSYn4CmSv7DFbjFPDATt4jiBVBRRo0OaXNt0pMusDj4zZmYcMg2dGvSrTn55xIRi1x7UVUnBs="
-  },
   "frame": {
     "name": "FortuneCookieCaster",
     "version": "1",
@@ -32,6 +27,11 @@
     "ogTitle": "Fortune Cookie Caster",
     "ogDescription": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster",
     "ogImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
-    "castShareUrl": "https://warpcast.com/~/compose?text=I%20just%20broke%20open%20a%20fortune%20cookie%20and%20it%20said:%7Bfortune%7D\""
+    "castShareUrl": "https://warpcast.com/~/compose?text=I%20just%20broke%20open%20a%20fortune%20cookie%20and%20it%20said:%7Bfortune%7D\\\""
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE2MDkyLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MDQ3RjhCRjdBRjZBZDM3MTFhZTc2RTRiNzIwMjM1OWYzNTcwOTc1OCJ9",
+    "payload": "eyJkb21haW4iOiJmb3J0dW5lLWNhc3Rlci52ZXJjZWwuYXBwIn0",
+    "signature": "MHg1NDJjMzg4OWI3OGRiZWEwNGUxNzMzMWI1ZTk3ZmYwZDg0MjdkYTcwNjhjN2Q5MmJiNTQ2ZDNhNzdmOTVjM2RkNzFjZDY3NjhjMzRiYzg1OTgxMjNjYWRmNDYwNzdkNGIxMzUzMjk1MTZjMTkxN2I0NWM0MWUwY2UzODY2Mzk0YjFj"
   }
 }
