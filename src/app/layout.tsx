@@ -130,7 +130,7 @@ export default function RootLayout({
         <head>
           <meta name="fc:miniapp" content='{
             "version": "1",
-            "imageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+            "imageUrl": "https://fortune-caster.vercel.app/home.png",
             "button": {
               "title": "Break Fortune Cookie",
               "action": {
