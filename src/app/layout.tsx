@@ -128,7 +128,20 @@ export default function RootLayout({
     return (
       <html lang="en">
         <head>
-          <meta name="fc:miniapp" content={content as string} />
+          <meta name="fc:miniapp" content='{
+            "version": "1",
+            "imageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+            "button": {
+              "title": "Break Fortune Cookie",
+              "action": {
+                "type": "launch_miniapp",
+                "name": "FortuneCookieCaster",
+                "url": "https://fortune-caster.vercel.app",
+                "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
+                "splashBackgroundColor": "#77d8ffff"
+              }
+            }
+          }' />
           <meta name="fc:frame" content={content as string} />
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="icon" href="/icon.svg" type="image/svg+xml" />
