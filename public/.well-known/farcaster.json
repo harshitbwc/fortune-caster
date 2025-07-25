@@ -1,5 +1,5 @@
 {
-  "frame": {
+  "miniApp": {
     "name": "FortuneCookieCaster",
     "version": "1",
     "iconUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
@@ -9,8 +9,8 @@
     "splashImageUrl": "https://iaprodbucket.blob.core.windows.net/iaprod/static/img/icons/tarot/fortune-cookie.svg",
     "splashBackgroundColor": "#f5f0ec",
     "webhookUrl": "https://fortune-caster.vercel.app/api/webhook",
-    "subtitle": "Break open fortune cookies to reveal your destiny",
-    "description": "Discover your cosmic destiny with interactive fortune cookies! Break open beautiful 3D fortune cookies to reveal mystical messages and share them with your Farcaster community.",
+    "subtitle": "Fortune Cookie Caster",
+    "description": "Break open beautiful 3D fortune cookies to reveal mystical messages and share them with Farcaster.",
     "primaryCategory": "entertainment",
     "screenshotUrls": [
       "https://fortune-caster.vercel.app/home.png"
